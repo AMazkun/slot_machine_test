@@ -2,6 +2,8 @@ import os
 from time import sleep
 
 import numpy as np
+from tensorflow.python.framework.test_util import skip_if
+
 from FC import symbols, paytable, paylines, ROWS, COLS, wild, NUM_PAYLINES
 
 def spin_reels():
@@ -140,18 +142,23 @@ def spin_and_show():
     #print("-" * 25)
     print()
 
+def run_spins():
+    for i in range(0, number_of_spins):
+        print("\033[H\033[3J", end="")
+        print("Spin:", i)
+        spin_and_show()
+        sleep(0.2)
 
 # STATISTICA
-number_of_tests = 100_000
+number_of_tests = 100_000_000
+number_of_spins = 20
+skip_spin = 1
 
 if __name__ == "__main__":
     print(f"\nFRUIT COCKTAIL MULILINE SIMULATION: {NUM_PAYLINES} lines")
 
-    for i in range(0, 1000):
-        print("\033[H\033[3J", end="")
-        print("Spin:", i)
-        spin_and_show()
-        sleep(0.3)
+    if skip_spin == 0:
+        run_spins()
 
     # Calculate expected payout through simulation
     print(f"SIMULATING : {number_of_tests} spins")
