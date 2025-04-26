@@ -1,3 +1,6 @@
+import os
+from time import sleep
+
 import numpy as np
 from FC import symbols, paytable, paylines, ROWS, COLS, wild, NUM_PAYLINES
 
@@ -106,7 +109,7 @@ def calculate_expected_payouts(num_spins=10000):
 
 def calculate_theoretical_payout():
     """Calculate the theoretical payout percentage based on symbol probabilities."""
-    symbols = list(symbols_with_probabilities.keys())
+    symbols = list(symbols.keys())
 
     # Calculate probability of each possible combination on a payline
     total_probability = 0
@@ -118,11 +121,10 @@ def calculate_theoretical_payout():
 
     return theoretical_rtp
 
-def spin():
+def spin_and_show():
     grid = spin_reels()
 
     # Print the reels grid for visualization
-    print("Sample Slot Machine Spin:")
     for row in grid:
         print(" | ".join(row))
     print("-" * 25)
@@ -145,8 +147,11 @@ number_of_tests = 100_000
 if __name__ == "__main__":
     print(f"\nFRUIT COCKTAIL MULILINE SIMULATION: {NUM_PAYLINES} lines")
 
-    for _ in range(0, 10):
-        spin()
+    for i in range(0, 1000):
+        print("\033[H\033[3J", end="")
+        print("Spin:", i)
+        spin_and_show()
+        sleep(0.3)
 
     # Calculate expected payout through simulation
     print(f"SIMULATING : {number_of_tests} spins")
