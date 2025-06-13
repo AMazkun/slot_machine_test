@@ -1,6 +1,6 @@
-# 🎰 Fist of Destruction Emulator
+# 🎰 Fist of Destruction Statistics Smulator
 
-Welcome to the Fist of Destruction Emulator, a simulation tool built to analyze one of the most iconic slot games from Hacksaw Gaming. This game has captured the interest of crypto traders and electronic casino service providers alike, and this emulator aims to uncover its deepest statistical mechanics.
+Welcome to the Fist of Destruction, a simulation tool built to analyze one of the most iconic slot games from Hacksaw Gaming. This game has captured the interest of crypto traders and electronic casino service providers alike, and this emulator aims to uncover its deepest statistical mechanics.
 
 Based on 
 [hacksawgaming.com](https://www.hacksawgaming.com/games/fist-of-destruction)
