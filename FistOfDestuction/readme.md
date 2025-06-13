@@ -11,6 +11,15 @@ Based on
 ⸻
 
 ## 🔍 Purpose
+The emulator is designed to find the point at which all the conditions for the appearance of the rarest events of the game are met, namely, exceeding the winning limit of one spin of the drum and the loss of all bonus games.
+
+After finding this point, the emulator checks that the conditions are maintained continuously for at least the next five iterations, in this case we can be sure that the obtained empirical data will not differ much from subsequent games.
+
+This allows us to reduce the testing period and empirical determination of the percentage of the machine's payout.
+
+Because for a simple analysis of the probability for the loss of all combinations at least once, more than 500 20,000,000 spins of the drum are needed, which is long enough with the help of such an algorithm, it is possible to reduce the process of empirical calculation of the game parameters to what is visible in this case 8.5 million spins of the drumWe checked whether the machine would be in the range of no more than 98% of the issue.
+
+Despite the fact that game manufacturers limit the winnings of one spin due to the fear of going into the minus at the first issue, we, as real mathematicians, are not afraid of such events and therefore the emulator has disabled the limit on the maximum win per spin of the drum, so the game showed a win of 101080 times, which you can see in the emulation results.
 
 This emulator is designed to:
 	•	Identify extreme edge conditions, such as the appearance of rare bonus rounds and maximum win events.
@@ -28,11 +37,7 @@ This emulator is designed to:
 
 ⸻
 
-## 📊 Why Use This Emulator?
 
-Traditional statistical analysis of slot games requires:
-	•	~500 simulations of 20 million spins each to observe rare combinations at least once.
-	•	Prohibitively long computation times for empirical modeling.
 
 With this emulator:
 	•	You get accelerated convergence of key metrics.
