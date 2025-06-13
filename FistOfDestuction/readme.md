@@ -17,7 +17,7 @@ After finding this point, the emulator checks that the conditions are maintained
 
 This allows us to reduce the testing period and empirical determination of the percentage of the machine's payout.
 
-Because for a simple analysis of the probability for the loss of all combinations at least once, more than 500 20,000,000 spins of the drum are needed, which is long enough with the help of such an algorithm, it is possible to reduce the process of empirical calculation of the game parameters to what is visible in this case 8.5 million spins of the drumWe checked whether the machine would be in the range of no more than 98% of the issue.
+Because for a simple analysis of the probability for the loss of all combinations at least once, more than 520,000,000 spins of the drum are needed, which is long enough with the help of such an algorithm, it is possible to reduce the process of empirical calculation of the game parameters to what is visible in this case 8.5 million spins of the drumWe checked whether the machine would be in the range of no more than 98% of the issue.
 
 Despite the fact that game manufacturers limit the winnings of one spin due to the fear of going into the minus at the first issue, we, as real mathematicians, are not afraid of such events and therefore the emulator has disabled the limit on the maximum win per spin of the drum, so the game showed a win of 101080 times, which you can see in the emulation results.
 

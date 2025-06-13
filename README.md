@@ -11,7 +11,7 @@ These simulators are designed for statistical research, probability modeling, an
 
 ## 🎯 Purpose
 
-These tools serve as research-grade simulators for slot game developers, crypto gaming analysts, and mathematicians. With them, you can:
+These tools serve as research-grade simulators for slot game developers and mathematicians. With them, you can:
 
 - Run large-scale spin simulations
 - Analyze RTP (Return to Player) and volatility
