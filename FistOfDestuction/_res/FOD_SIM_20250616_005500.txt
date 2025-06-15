@@ -1,0 +1,4630 @@
+[
+  {
+    "spins": [],
+    "statistics": {
+      "total_spins": 0,
+      "total_bet": 0.0,
+      "total_win": 0.0,
+      "bonus_triggers": 0,
+      "epic_drops": 0,
+      "max_win": 0.0,
+      "rtp": 0.0,
+      "hit_frequency": 0.0
+    },
+    "epic_drops": 0,
+    "max_win": 80815.60000000002,
+    "total_spins": 14000000,
+    "total_bet": 14000000.0,
+    "total_win": 13522450.099583209,
+    "wild_win": 665510.7999760779,
+    "fist_wild_win": 184448.00000164038,
+    "THROWDOWN_win": 2653012.6000004634,
+    "U_THROWDOWN_win": 646432.8000000061,
+    "rtp": 96.5889292827372,
+    "hit_frequency": 31.17132142857143,
+    "rmsm_volatility": 49.50528751420706,
+    "max_win_spin": {
+      "grid": [
+        [
+          "FIST",
+          "FIST",
+          "FIST",
+          "FIST"
+        ],
+        [
+          "FIST",
+          "FIST",
+          "FIST",
+          "FIST"
+        ],
+        [
+          "RFM",
+          "A",
+          "10",
+          "10"
+        ],
+        [
+          "J",
+          "WILD",
+          "10",
+          "10"
+        ],
+        [
+          "J",
+          "10",
+          "RFM",
+          "BLUE_F"
+        ]
+      ],
+      "wins": [
+        {
+          "symbol": "RFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 0,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 1,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 2,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 3,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 4,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 5,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 6,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 7,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 4,
+          "payout": 3.0,
+          "payline": 8,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 5,
+          "payout": 1.5,
+          "payline": 9,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 10,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 11,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 12,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 13,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 14,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 15,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 16,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 17,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 18,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 19,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 20,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 21,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 22,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 23,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 24,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 25,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 26,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 27,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 28,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 29,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 30,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 31,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 32,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 33,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 34,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 35,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 36,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 37,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 38,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 39,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        }
+      ],
+      "total_win": 80815.60000000002,
+      "wild_reel_activations": [
+        {
+          "reel": 0,
+          "fist_position": 3,
+          "multiplier": 4
+        },
+        {
+          "reel": 1,
+          "fist_position": 3,
+          "multiplier": 5
+        }
+      ],
+      "epic_drops": []
+    }
+  },
+  {
+    "spins": [],
+    "statistics": {
+      "total_spins": 0,
+      "total_bet": 0.0,
+      "total_win": 0.0,
+      "bonus_triggers": 0,
+      "epic_drops": 0,
+      "max_win": 0.0,
+      "rtp": 0.0,
+      "hit_frequency": 0.0
+    },
+    "epic_drops": 0,
+    "max_win": 51410.499999999985,
+    "total_spins": 14000000,
+    "total_bet": 14000000.0,
+    "total_win": 13308505.299588757,
+    "wild_win": 665026.7999761308,
+    "fist_wild_win": 182625.4000016302,
+    "THROWDOWN_win": 2595189.0000004717,
+    "U_THROWDOWN_win": 540824.0000000026,
+    "rtp": 95.06075213991969,
+    "hit_frequency": 31.178235714285712,
+    "rmsm_volatility": 39.840760465233835,
+    "max_win_spin": {
+      "grid": [
+        [
+          "FIST",
+          "FIST",
+          "FIST",
+          "FIST"
+        ],
+        [
+          "A",
+          "BFW",
+          "J",
+          "RFM"
+        ],
+        [
+          "FIST",
+          "FIST",
+          "FIST",
+          "FIST"
+        ],
+        [
+          "10",
+          "WILD",
+          "WILD",
+          "BFM"
+        ],
+        [
+          "FIST",
+          "FIST",
+          "FIST",
+          "FIST"
+        ]
+      ],
+      "wins": [
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 0,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 1,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "J",
+          "count": 5,
+          "payout": 1.5,
+          "payline": 2,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 3,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 4,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 5,
+          "payout": 1.5,
+          "payline": 5,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 6,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "J",
+          "count": 5,
+          "payout": 1.5,
+          "payline": 7,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 8,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "J",
+          "count": 5,
+          "payout": 1.5,
+          "payline": 9,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 10,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "J",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 11,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 12,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 5,
+          "payout": 1.5,
+          "payline": 13,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 14,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "J",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 15,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 16,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 5,
+          "payout": 1.5,
+          "payline": 17,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 18,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "J",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 19,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 20,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 5,
+          "payout": 1.5,
+          "payline": 21,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 22,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "J",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 23,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 24,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 5,
+          "payout": 1.5,
+          "payline": 25,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 26,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "J",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 27,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 28,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 5,
+          "payout": 1.5,
+          "payline": 29,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 30,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "J",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 31,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 32,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 5,
+          "payout": 1.5,
+          "payline": 33,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 34,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "J",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 35,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 36,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 5,
+          "payout": 1.5,
+          "payline": 37,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 38,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "J",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 39,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        }
+      ],
+      "total_win": 51410.499999999985,
+      "wild_reel_activations": [
+        {
+          "reel": 0,
+          "fist_position": 3,
+          "multiplier": 7
+        },
+        {
+          "reel": 2,
+          "fist_position": 3,
+          "multiplier": 4
+        },
+        {
+          "reel": 4,
+          "fist_position": 3,
+          "multiplier": 5
+        }
+      ],
+      "epic_drops": []
+    }
+  },
+  {
+    "spins": [],
+    "statistics": {
+      "total_spins": 0,
+      "total_bet": 0.0,
+      "total_win": 0.0,
+      "bonus_triggers": 0,
+      "epic_drops": 0,
+      "max_win": 0.0,
+      "rtp": 0.0,
+      "hit_frequency": 0.0
+    },
+    "epic_drops": 0,
+    "max_win": 30460.399999999998,
+    "total_spins": 14000000,
+    "total_bet": 14000000.0,
+    "total_win": 13303366.799596045,
+    "wild_win": 665592.0999758403,
+    "fist_wild_win": 182122.90000159622,
+    "THROWDOWN_win": 2686757.80000047,
+    "U_THROWDOWN_win": 423988.4000000014,
+    "rtp": 95.02404856854318,
+    "hit_frequency": 31.172742857142854,
+    "rmsm_volatility": 36.26967063892788,
+    "max_win_spin": {
+      "grid": [
+        [
+          "A",
+          "BFM",
+          "Q",
+          "RFW"
+        ],
+        [
+          "FIST",
+          "FIST",
+          "FIST",
+          "FIST"
+        ],
+        [
+          "FIST",
+          "FIST",
+          "FIST",
+          "FIST"
+        ],
+        [
+          "K",
+          "Q",
+          "10",
+          "Q"
+        ],
+        [
+          "K",
+          "10",
+          "RFW",
+          "RFW"
+        ]
+      ],
+      "wins": [
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 0,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "BFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 1,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 2,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 3,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 4,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "BFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 5,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 6,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 7,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 8,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "BFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 9,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 10,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "BFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 11,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 12,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 13,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 14,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "BFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 15,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 16,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 17,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 18,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "BFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 19,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 20,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 21,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 22,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "BFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 23,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 24,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 25,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 26,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "BFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 27,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 28,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 29,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 30,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "BFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 31,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 32,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 33,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 34,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "BFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 35,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 36,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 37,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 38,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "BFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 39,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        }
+      ],
+      "total_win": 30460.399999999998,
+      "wild_reel_activations": [
+        {
+          "reel": 1,
+          "fist_position": 3,
+          "multiplier": 6
+        },
+        {
+          "reel": 2,
+          "fist_position": 3,
+          "multiplier": 3
+        }
+      ],
+      "epic_drops": []
+    }
+  },
+  {
+    "spins": [],
+    "statistics": {
+      "total_spins": 0,
+      "total_bet": 0.0,
+      "total_win": 0.0,
+      "bonus_triggers": 0,
+      "epic_drops": 0,
+      "max_win": 0.0,
+      "rtp": 0.0,
+      "hit_frequency": 0.0
+    },
+    "epic_drops": 0,
+    "max_win": 52490.80000000002,
+    "total_spins": 14000000,
+    "total_bet": 14000000.0,
+    "total_win": 13425612.699582204,
+    "wild_win": 665233.9999759143,
+    "fist_wild_win": 183947.1000016639,
+    "THROWDOWN_win": 2663084.4000004577,
+    "U_THROWDOWN_win": 553386.0000000055,
+    "rtp": 95.89723356844432,
+    "hit_frequency": 31.184435714285712,
+    "rmsm_volatility": 41.81321176251433,
+    "max_win_spin": {
+      "grid": [
+        [
+          "FIST",
+          "FIST",
+          "FIST",
+          "FIST"
+        ],
+        [
+          "10",
+          "RFW",
+          "BFW",
+          "A"
+        ],
+        [
+          "FIST",
+          "FIST",
+          "FIST",
+          "FIST"
+        ],
+        [
+          "BFM",
+          "RFW",
+          "A",
+          "RFW"
+        ],
+        [
+          "J",
+          "A",
+          "BLUE_F",
+          "K"
+        ]
+      ],
+      "wins": [
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 0,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 4,
+          "payout": 3.0,
+          "payline": 1,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 2,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 3,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 4,
+          "payout": 3.0,
+          "payline": 4,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 5,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 6,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 7,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 4,
+          "payout": 3.0,
+          "payline": 8,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 9,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 4,
+          "payout": 3.0,
+          "payline": 10,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 11,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 12,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 13,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 4,
+          "payout": 3.0,
+          "payline": 14,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 15,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 16,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 17,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 4,
+          "payout": 3.0,
+          "payline": 18,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 19,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 20,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 21,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 4,
+          "payout": 3.0,
+          "payline": 22,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 23,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 24,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 25,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 4,
+          "payout": 3.0,
+          "payline": 26,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 27,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 28,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 29,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 4,
+          "payout": 3.0,
+          "payline": 30,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 31,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 32,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 33,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 4,
+          "payout": 3.0,
+          "payline": 34,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 35,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 36,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "10",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 37,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 4,
+          "payout": 3.0,
+          "payline": 38,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 39,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        }
+      ],
+      "total_win": 52490.80000000002,
+      "wild_reel_activations": [
+        {
+          "reel": 0,
+          "fist_position": 3,
+          "multiplier": 7
+        },
+        {
+          "reel": 2,
+          "fist_position": 3,
+          "multiplier": 2
+        }
+      ],
+      "epic_drops": []
+    }
+  },
+  {
+    "spins": [],
+    "statistics": {
+      "total_spins": 0,
+      "total_bet": 0.0,
+      "total_win": 0.0,
+      "bonus_triggers": 0,
+      "epic_drops": 0,
+      "max_win": 0.0,
+      "rtp": 0.0,
+      "hit_frequency": 0.0
+    },
+    "epic_drops": 0,
+    "max_win": 44162.00000000001,
+    "total_spins": 14000000,
+    "total_bet": 14000000.0,
+    "total_win": 13344783.99959146,
+    "wild_win": 665307.2999759855,
+    "fist_wild_win": 182370.00000160464,
+    "THROWDOWN_win": 2733862.9000005214,
+    "U_THROWDOWN_win": 481688.00000000064,
+    "rtp": 95.31988571136758,
+    "hit_frequency": 31.16021428571429,
+    "rmsm_volatility": 40.346259731513626,
+    "max_win_spin": {
+      "grid": [
+        [
+          "RFM",
+          "WILD",
+          "Q",
+          "A"
+        ],
+        [
+          "FIST",
+          "FIST",
+          "FIST",
+          "K"
+        ],
+        [
+          "FIST",
+          "FIST",
+          "FIST",
+          "FIST"
+        ],
+        [
+          "Q",
+          "WILD",
+          "RFW",
+          "J"
+        ],
+        [
+          "BFW",
+          "BFW",
+          "Q",
+          "Q"
+        ]
+      ],
+      "wins": [
+        {
+          "symbol": "RFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 0,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "BFW",
+          "count": 5,
+          "payout": 8.0,
+          "payline": 1,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 3,
+          "payout": 0.1,
+          "payline": 2,
+          "positions": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 4,
+          "payout": 3.0,
+          "payline": 4,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 4,
+          "payout": 3.0,
+          "payline": 5,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 7,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 4,
+          "payout": 3.0,
+          "payline": 8,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFW",
+          "count": 4,
+          "payout": 3.0,
+          "payline": 9,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 10,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 11,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 13,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 14,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 15,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 17,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 18,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 19,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 21,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 22,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 23,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 25,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 26,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 27,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 29,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 30,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 31,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 33,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 34,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 35,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "payout": 0.2,
+          "payline": 37,
+          "positions": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "symbol": "RFM",
+          "count": 3,
+          "payout": 1.0,
+          "payline": 38,
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "symbol": "Q",
+          "count": 4,
+          "payout": 0.6,
+          "payline": 39,
+          "positions": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        }
+      ],
+      "total_win": 44162.00000000001,
+      "wild_reel_activations": [
+        {
+          "reel": 1,
+          "fist_position": 2,
+          "multiplier": 6
+        },
+        {
+          "reel": 2,
+          "fist_position": 3,
+          "multiplier": 6
+        }
+      ],
+      "epic_drops": []
+    }
+  }
+]

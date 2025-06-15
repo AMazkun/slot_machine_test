@@ -495,10 +495,10 @@ class FistOfDestructionEmulator:
         else:
             print("\n")
 
-    def run_simulation(self, epoch, rule, a_team, a_fighter, a_opposite_fighter, num_spins: int, lines: int, bet: float = 1.0, initial_balance: float = 1000000.0) -> Dict:
+    def run_simulation(self, epoch : int, rule, a_team : Team, a_fighter, a_opposite_fighter, num_spins: int, lines: int, bet: float = 1.0, initial_balance: float = 1000000.0) -> Dict:
         """Run a complete simulation"""
         self.num_spins = num_spins
-        self.satisfied = rule
+        self.satisfied = copy.deepcopy(rule)
         self.max_win_limit = int(bet * self.max_win_times)
         if lines > len(self.paylines):
             raise ValueError(
