@@ -3,7 +3,7 @@ from typing import Dict
 import datetime
 
 from FOD_SIM import FistOfDestructionEmulator
-from FOD_SIM import Team, SymbolType, SpinResult
+from FOD_SIM import Team, SymbolType, SpinResult, SATISFY_RULE
 
 TARGET_OVERALL_RTP = 98.00
 
@@ -17,7 +17,7 @@ class ResultEncoder(json.JSONEncoder):
 
 def iteration(exhaustive_num_spins, epoch, lines, bet) -> (bool, Dict):
     print(f"\n=== SAMPLE SPINS ===")
-    results = emulator.run_simulation(epoch,
+    results = emulator.run_simulation(epoch, rule=SATISFY_RULE,
                                       a_team=Team.RED, a_fighter=SymbolType.RED_FIGHTER_MAN,
                                       a_opposite_fighter = SymbolType.BLUE_FIGHTER_WOMAN,
                                       initial_balance=exhaustive_num_spins,
@@ -51,14 +51,14 @@ def print_summary_statistics(results) -> None:
     print(f"Max Win Cap: 10,000x (${10000 * 1.0:,.2f} at $1 bet)")
     print(f"Achieved Max Win:  {results['max_win']:,.2f}x")
     print(f"Max Win GRID:\n")
-    emulator.print_grid (results['max_win_spin'], print_wins = True)
+    emulator.print_grids(results['max_win_spin'], print_wins = True)
     print(f"======================================================\n")
 
 def to_stable():
     max_win = 10000
     lines = 40
     bet = 1.0
-    exhaustive_num_spins = 5_500_000
+    exhaustive_num_spins = 10_000_000
     epoch = 1
     max_win_stable = 0
 

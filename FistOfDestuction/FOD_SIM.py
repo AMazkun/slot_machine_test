@@ -1,3 +1,4 @@
+import copy
 from random import shuffle, random, choice
 import math
 from enum import Enum
@@ -11,7 +12,7 @@ def clear_console():
     else:  # For macOS and Linux
         print("\033[H\033[3J", end="")
 
-
+SATISFY_RULE = dict(max_win=False, bonus_3FC_3x=False, bonus_3FC_4x=False, bonus_3FC_5x=False, bonus_4FC=False, fists_4_more_max_win=False)
 class SymbolType(Enum):
     # Low paying symbols
     TEN = "10"
@@ -42,6 +43,7 @@ class Team(Enum):
 @dataclass
 class SpinResult:
     grid: List[List[SymbolType]]
+    grid_orig: List[List[SymbolType]]
     wins: List[Dict]
     total_win: float
     wild_reel_activations: List[Dict]
@@ -83,7 +85,7 @@ class FistOfDestructionEmulator:
     max_win_limit : int = 0
     max_win_times : int = 10_000
     multiplier_options = [2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 50, 100, 200]
-    satisfied = dict(max_win=False, bonus_3FC_3x=False, bonus_3FC_4x=False, bonus_3FC_5x=True, bonus_4FC=False)
+    satisfied = SATISFY_RULE
 
     def __init__(self):
         self.max_win_spin = None
@@ -213,14 +215,15 @@ class FistOfDestructionEmulator:
         """Calculate Wild Reel expansions and multipliers"""
         activations = []
 
+        # Check for fist symbols of selected team
+        fist_symbol = SymbolType.FIST_RED if selected_team == Team.RED else SymbolType.FIST_BLUE
+
         for reel_idx in range(5):
             reel = grid[reel_idx]
 
-            # Check for fist symbols of selected team
-            fist_symbol = SymbolType.FIST_RED if selected_team == Team.RED else SymbolType.FIST_BLUE
-
-            for fist_row_idx, symbol in enumerate(reel):
-                if symbol == fist_symbol:
+            found_only_once = False
+            for fist_row_idx, symbol in reversed(list(enumerate(reel))):
+                if symbol == fist_symbol and fist_row_idx > 0:
 
                     # Count opponents and wilds in the reel
                     for check_row, check_symbol in enumerate(reel[:fist_row_idx]):
@@ -239,10 +242,15 @@ class FistOfDestructionEmulator:
                                 'fist_position': fist_row_idx,
                                 'multiplier': multiplier,
                             })
+                            found_only_once = True
+                            break
+
+                if found_only_once:
+                    break
 
         return activations
 
-    def calculate_payline_wins(self, grid: List[List[SymbolType]], bet: float) -> List[Dict]:
+    def calculate_payline_wins(self, grid: List[List[SymbolType]]) -> List[Dict]:
         """Calculate all payline wins"""
         wins = []
 
@@ -254,7 +262,7 @@ class FistOfDestructionEmulator:
 
             # Check for wins (left to right)
             if len(symbols_on_line) >= 3:
-                win_info = self.check_line_win(symbols_on_line, bet)
+                win_info = self.check_line_win(symbols_on_line)
                 if win_info['payout'] > 0:
                     win_info['payline'] = line_idx
                     win_info['positions'] = [(i, payline[i]) for i in range(win_info['count'])]
@@ -262,7 +270,7 @@ class FistOfDestructionEmulator:
 
         return wins
 
-    def check_line_win(self, symbols: List[SymbolType], bet: float) -> Dict:
+    def check_line_win(self, symbols: List[SymbolType]) -> Dict:
         """Check a single payline for wins"""
         if len(symbols) < 3:
             return {'symbol': None, 'count': 0, 'payout': 0}
@@ -285,23 +293,22 @@ class FistOfDestructionEmulator:
                 break
 
         # Calculate payout
-        payout = 0
+        payout_multiplier = 0
         if count >= 3 and first_symbol in self.paytable:
             payout_multiplier = self.paytable[first_symbol].get(count, 0)
             if count > 5:  # If somehow more than 5, use 5-symbol payout
                 payout_multiplier = self.paytable[first_symbol].get(5, 0)
-            payout = bet * payout_multiplier
 
         if symbols.__contains__(SymbolType.EWILD):
-            self.game_state.fist_wild_win += payout
+            self.game_state.fist_wild_win += payout_multiplier
         else:
             if symbols.__contains__(SymbolType.WILD):
-                self.game_state.wild_win += payout
+                self.game_state.wild_win += payout_multiplier
 
         return {
             'symbol': first_symbol,
             'count': count,
-            'payout': payout
+            'payout': payout_multiplier
         }
 
     def apply_fist_multipliers(self, wins: List[Dict], fist_activations: List[Dict]) -> float:
@@ -387,6 +394,7 @@ class FistOfDestructionEmulator:
             #print("Bonus add spins", bonus_type, game_state.bonus_spins_left)
 
         # Calculate fist multipliers and wild reel expansions
+        grid_orig = copy.deepcopy(grid)
         fist_activations = self.calculate_fist_multipliers(grid, game_state.selected_team)
 
         # Calculate victory points (only in bonus)
@@ -405,7 +413,7 @@ class FistOfDestructionEmulator:
                 fist_activations.extend(self.calculate_fist_multipliers(grid, game_state.selected_team))
 
         # Calculate payline wins
-        wins = self.calculate_payline_wins(grid, game_state.bet)
+        wins = self.calculate_payline_wins(grid)
 
         # Apply fist multipliers
         total_win = sum(win['payout'] for win in wins)
@@ -418,6 +426,7 @@ class FistOfDestructionEmulator:
 
 
         # Update game state
+        total_win *= self.game_state.bet
         game_state.balance += total_win
         game_state.total_spins += 1
 
@@ -435,10 +444,13 @@ class FistOfDestructionEmulator:
                 game_state.bonus_type = ""
                 game_state.victory_level = 0
 
+        if fist_activations.__len__() == 4 and total_win >= self.max_win_limit:
+            self.satisfied['fists_4_more_max_win'] = True
         game_state.total_wins += total_win
 
         spin_result = SpinResult(
             grid=grid,
+            grid_orig = grid_orig,
             wins=wins,
             total_win=total_win,
             wild_reel_activations=fist_activations,
@@ -448,12 +460,19 @@ class FistOfDestructionEmulator:
         return spin_result
 
     @staticmethod
-    def print_grid(spin, print_wins = False) -> None:
+    def print_grids(spin, print_wins = False) -> None:
+        def int_grid_print(grid) -> None:
+            for row in range(4):
+                row_symbols = [grid[reel][row].value for reel in range(5)]
+                print(f"  {' | '.join(f'{sym:>8}' for sym in row_symbols)}")
 
-        for row in range(4):
-            row_symbols = [spin.grid[reel][row].value for reel in range(5)]
-            print(f"  {' | '.join(f'{sym:>8}' for sym in row_symbols)}")
-        print(f"  Win: ${spin.total_win:.2f}")
+        if spin.grid_orig is not None:
+            print(f"ORIGINAL GRID: ")
+            int_grid_print(spin.grid_orig)
+        print(f"GRID: ")
+        int_grid_print(spin.grid)
+
+        print(f"  Win: x{spin.total_win:.2f}")
         if len(spin.wild_reel_activations) > 0:
             print(f"  Fist Activations: {len(spin.wild_reel_activations)}")
         else:
@@ -470,16 +489,16 @@ class FistOfDestructionEmulator:
         clear_console()
         print(f"\nSpin {spin['spin_number']:,} of {self.num_spins:,}, epoch: {epoch}, balance {self.game_state.balance:,.2f} :")
         print(f"SATISFIED: {self.satisfied}")
-        self.print_grid(spin['spin'], print_wins=False)
+        self.print_grids(spin['spin'], print_wins=False)
         if spin['bonus_active']:
             print(f"  BONUS ACTIVE")
         else:
             print("\n")
 
-    def run_simulation(self, epoch, a_team, a_fighter, a_opposite_fighter, num_spins: int, lines: int, bet: float = 1.0, initial_balance: float = 1000000.0) -> Dict:
+    def run_simulation(self, epoch, rule, a_team, a_fighter, a_opposite_fighter, num_spins: int, lines: int, bet: float = 1.0, initial_balance: float = 1000000.0) -> Dict:
         """Run a complete simulation"""
         self.num_spins = num_spins
-        self.satisfied = dict(max_win=False, bonus_3FC_3x=False, bonus_3FC_4x=False, bonus_3FC_5x=True, bonus_4FC=False)
+        self.satisfied = rule
         self.max_win_limit = int(bet * self.max_win_times)
         if lines > len(self.paylines):
             raise ValueError(
@@ -546,7 +565,7 @@ class FistOfDestructionEmulator:
             if spin_result.total_win >= self.max_win_limit:  # if we already overcome limit
                 self.satisfied['max_win'] = True
 
-            if spin_result.total_win > 50.0:
+            if spin_result.total_win > 3000.0:
                 self.print_spin(epoch, {
                     'spin_number': spin_num + 1,
                     'spin' : spin_result,
