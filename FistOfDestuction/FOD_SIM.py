@@ -491,7 +491,7 @@ class FistOfDestructionEmulator:
         print(f"SATISFIED: {self.satisfied}")
         self.print_grids(spin['spin'], print_wins=False)
         if spin['bonus_active']:
-            print(f"  BONUS ACTIVE")
+            print(f"  BONUS: {spin['bonus_type']}")
         else:
             print("\n")
 
@@ -569,7 +569,8 @@ class FistOfDestructionEmulator:
                 self.print_spin(epoch, {
                     'spin_number': spin_num + 1,
                     'spin' : spin_result,
-                    'bonus_active': self.game_state.in_bonus
+                    'bonus_active': self.game_state.in_bonus,
+                    'bonus_type': self.game_state.bonus_type
                 })
 
             # Update statistics
