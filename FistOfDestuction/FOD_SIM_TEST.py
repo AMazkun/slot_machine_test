@@ -93,7 +93,7 @@ def once():
 
     lines = 40
     bet = 1.0
-    exhaustive_num_spins = 30_000_000
+    exhaustive_num_spins = 35_000_000
     epoch = 1
 
     print("\tRunning Fist of Destruction simulation... iteration : ")
