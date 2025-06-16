@@ -3,7 +3,7 @@ from typing import Dict
 import datetime
 
 from FOD_SIM import FistOfDestructionEmulator
-from FOD_SIM import Team, SymbolType, SpinResult, SATISFY_RULE
+from FOD_SIM import Team, SymbolType, SpinResult, SATISFY_RULE, TRY_OR_DIE
 
 TARGET_OVERALL_RTP = 98.00
 
@@ -27,14 +27,16 @@ def iteration(exhaustive_num_spins, epoch, lines, bet) -> (bool, Dict):
 def print_summary_statistics(results) -> None:
     # Print summary statistics
     total_win = results['total_win']
+    all_component_win = results['reel_win'] + results['wild_win'] + results['fist_wild_win'] + results['THROWDOWN_win'] + results['U_THROWDOWN_win']
     print(f"\n\n=== SIMULATION RESULTS ===")
     print(f"Total Spins:  {results['total_spins']:,} final balance ${emulator.game_state.balance:,.2f}")
     print(f"Total Bet: $ {results['total_bet']:,.2f}")
     print(f"Total Win: \t\t\t${total_win:,.2f}")
-    print(f"Total wild_win: \t$ {results['wild_win']:,.2f} \tof {(results['wild_win'] / total_win * 100.0):.2f} %")
-    print(f"Total fist_wild_win: \t$ {results['fist_wild_win']:,.2f} \tof {(results['fist_wild_win'] / total_win * 100):.2f} %")
-    print(f"Total bonus_THROWDOWN: \t$ {results['THROWDOWN_win']:,.2f} \tof {(results['THROWDOWN_win'] / total_win * 100):.2f} %")
-    print(f"Total ULTIMA_THROWDOWN: \t$ {results['U_THROWDOWN_win']:,.2f} \tof {(results['U_THROWDOWN_win'] / total_win * 100):.2f} %")
+    print(f"Total reel_win: \tx {results['reel_win']:,.2f} \tof {(results['reel_win'] / all_component_win * 100.0):.2f} %")
+    print(f"Total wild_win: \tx {results['wild_win']:,.2f} \tof {(results['wild_win'] / all_component_win * 100.0):.2f} %")
+    print(f"Total fist_wild_win: \tx {results['fist_wild_win']:,.2f} \tof {(results['fist_wild_win'] / all_component_win * 100):.2f} %")
+    print(f"Total bonus_THROWDOWN: \tx {results['THROWDOWN_win']:,.2f} \tof {(results['THROWDOWN_win'] / all_component_win * 100):.2f} %")
+    print(f"Total ULTIMA_THROWDOWN: \tx {results['U_THROWDOWN_win']:,.2f} \tof {(results['U_THROWDOWN_win'] / all_component_win * 100):.2f} %")
     print(f"RTP:  {results['rtp']:.2f}%")
     print(f"Hit Frequency:  {results['hit_frequency']:.2f}%")
     print(f"Max Win: $ {results['max_win']:,.2f} ( {results['max_win']:.2f}x bet)")
@@ -93,8 +95,10 @@ def once():
 
     lines = 40
     bet = 1.0
-    exhaustive_num_spins = 35_000_000
     epoch = 1
+
+    exhaustive_num_spins = TRY_OR_DIE # try or die
+    #exhaustive_num_spins = 500_000  # try or die
 
     print("\tRunning Fist of Destruction simulation... iteration : ")
     stable, result = iteration(exhaustive_num_spins, epoch, lines, bet)

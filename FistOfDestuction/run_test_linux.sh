@@ -26,6 +26,7 @@ done
 # Run scripts in each window
 for i in {1..20}; do
     window_index=$((i-1))
+
     tmux send-keys -t python_scripts:$window_index "echo 'Terminal $i - Running $SCRIPT_NAME'" Enter
     tmux send-keys -t python_scripts:$window_index "/usr/bin/python3.12 $SCRIPT_NAME" Enter
 done

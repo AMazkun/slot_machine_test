@@ -12,6 +12,7 @@ def clear_console():
     else:  # For macOS and Linux
         print("\033[H\033[2J", end="")
 
+TRY_OR_DIE = 1_000_000_000
 SATISFY_RULE = dict(max_win=False, bonus_3FC_3x=False, bonus_3FC_4x=False, bonus_3FC_5x=False, bonus_4FC=False, fists_4_more_max_win=False)
 class SymbolType(Enum):
     # Low paying symbols
@@ -72,6 +73,7 @@ class GameState:
     victory_level: int
     total_spins: int
     total_wins: float
+    reel_win :float
     wild_win :float
     fist_wild_win :float
     THROWDOWN_win :float
@@ -182,6 +184,19 @@ class FistOfDestructionEmulator:
         print([x.name for x in symbols])
         print("\n")
         return symbols
+
+    def team_fist(self) -> SymbolType:
+        return SymbolType.FIST_RED if self.game_state.selected_team == Team.RED else SymbolType.FIST_BLUE
+
+    def count_my_fists(self, grid) -> int:
+        fists = 0
+        fist = self.team_fist()
+        for reel in grid:
+            for symbol in reel:
+                if symbol == fist:
+                    fists += 1
+
+        return 1 if fists < 3 else fists
 
     def spin_reels(self, is_bonus: bool = False) -> List[List[SymbolType]]:
         """Generate a 5x4 grid of symbols"""
@@ -298,12 +313,11 @@ class FistOfDestructionEmulator:
         payout_multiplier = 0
         if count >= 3 and base_symbol in self.paytable:
             payout_multiplier = self.paytable[base_symbol].get(min(count, 5), 0)
+            self.game_state.reel_win += payout_multiplier
 
         # Check if this specific winning combination contains wilds
         winning_symbols = symbols[:count]
-        if SymbolType.EWILD in winning_symbols:
-            self.game_state.fist_wild_win += payout_multiplier  # Fixed typo
-        elif SymbolType.WILD in winning_symbols:
+        if SymbolType.WILD in winning_symbols:
             self.game_state.wild_win += payout_multiplier
 
         return {
@@ -348,19 +362,6 @@ class FistOfDestructionEmulator:
             'positions': positions,
             'victory_level': victory_level
         }
-
-    def team_fist(self) -> SymbolType:
-        return SymbolType.FIST_RED if self.game_state.selected_team == Team.RED else SymbolType.FIST_BLUE
-
-    def count_my_fists(self, grid) -> int:
-        fists = 0
-        fist = self.team_fist()
-        for reel in grid:
-            for symbol in reel:
-                if symbol == fist:
-                    fists += 1
-
-        return 1 if fists < 3 else fists
 
     def simulate_spin(self, game_state: GameState) -> SpinResult:
         """Simulate a complete spin"""
@@ -424,10 +425,9 @@ class FistOfDestructionEmulator:
         if fist_activations:
             multiplier = self.apply_fist_multipliers(wins, fist_activations)
             total_win *= multiplier
-
+            game_state.fist_wild_win += multiplier
 
         # Update game state
-        total_win *= self.game_state.bet
         game_state.balance += total_win
         game_state.total_spins += 1
 
@@ -435,9 +435,9 @@ class FistOfDestructionEmulator:
             game_state.bonus_spins_left -= 1
             total_win *= game_state.victory_level
             if game_state.bonus_type == "THROWDOWN":
-                game_state.THROWDOWN_win += total_win
+                game_state.THROWDOWN_win += game_state.victory_level
             else:
-                game_state.U_THROWDOWN_win += total_win
+                game_state.U_THROWDOWN_win += game_state.victory_level
 
             #print("Bonus win", game_state.bonus_type, game_state.victory_level, total_win)
             if game_state.bonus_spins_left <= 0:
@@ -524,6 +524,7 @@ class FistOfDestructionEmulator:
             victory_level=0,
             total_spins=0,
             total_wins=0.0,
+            reel_win=0.0,
             wild_win=0.0,
             fist_wild_win=0.0,
             THROWDOWN_win=0.0,
@@ -546,12 +547,12 @@ class FistOfDestructionEmulator:
         }
 
         winning_spins = 0
-
         wins = []
         results['epic_drops'] = 0
-        for spin_num in range(num_spins):
+
+        def do_spin_internal(spin_num, wins, winning_spins):
             if self.game_state.balance < bet:
-                break
+                return
             self.game_state.balance -= bet
             spin_result = self.simulate_spin(self.game_state)
 
@@ -582,6 +583,15 @@ class FistOfDestructionEmulator:
 
             #print(f"============ SPING OVER win={spin_result.total_win} bonus => {self.game_state.bonus_type}: {self.game_state.bonus_spins_left} =================== ")
 
+        if num_spins != TRY_OR_DIE:
+            for spin_num in range(num_spins):
+                do_spin_internal(spin_num, wins, winning_spins)
+        else:
+            num_spins = 1
+            while not all(self.satisfied.values()):
+                do_spin_internal(num_spins, wins, winning_spins)
+                num_spins += 1
+
         # Final statistics
         total_bet = num_spins * bet
         mean_win = self.game_state.total_wins / num_spins
@@ -590,7 +600,8 @@ class FistOfDestructionEmulator:
         results.update({
             'total_spins': num_spins,
             'total_bet': total_bet,
-            'total_win': self.game_state.total_wins,
+            'total_win': self.game_state.total_wins * self.game_state.bet,
+            'reel_win': self.game_state.reel_win,
             'wild_win': self.game_state.wild_win,
             'fist_wild_win': self.game_state.fist_wild_win,
             'THROWDOWN_win': self.game_state.THROWDOWN_win,
