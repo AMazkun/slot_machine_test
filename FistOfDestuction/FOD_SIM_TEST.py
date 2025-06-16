@@ -58,7 +58,7 @@ def to_stable():
     max_win = 10000
     lines = 40
     bet = 1.0
-    exhaustive_num_spins = 10_000_000
+    exhaustive_num_spins = 14_000_000
     epoch = 1
     max_win_stable = 0
 
@@ -93,7 +93,7 @@ def once():
 
     lines = 40
     bet = 1.0
-    exhaustive_num_spins = 500_000
+    exhaustive_num_spins = 30_000_000
     epoch = 1
 
     print("\tRunning Fist of Destruction simulation... iteration : ")
@@ -111,7 +111,24 @@ def once():
         json.dump(result, file, cls=ResultEncoder,  indent=2)
 
 # Example usage and testing
+import time
 if __name__ == "__main__":
     emulator = FistOfDestructionEmulator()
-    #once()
-    to_stable()
+    start_timestamp = time.time()
+    start_datetime = datetime.datetime.fromtimestamp(start_timestamp)
+
+    # TESTS
+    once()
+    #to_stable()
+
+    end_timestamp = time.time()
+    end_datetime = datetime.datetime.fromtimestamp(end_timestamp)
+    print(f":: TEST BEGAN: {start_datetime.strftime('%Y-%m-%d %H:%M:%S')} ENDS: {end_datetime.strftime('%Y-%m-%d %H:%M:%S')}")
+
+    duration_seconds = end_timestamp - start_timestamp
+    total_seconds_int = int(duration_seconds)
+    hours = total_seconds_int // 3600
+    minutes = (total_seconds_int % 3600) // 60
+    seconds = total_seconds_int % 60
+    milliseconds = int((duration_seconds - total_seconds_int) * 1000)
+    print(f"::\tDURATION: {hours} h {minutes} min {seconds} sec {milliseconds} mc")

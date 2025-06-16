@@ -10,7 +10,7 @@ def clear_console():
     if os.name == 'nt':  # For Windows
         os.system('cls')
     else:  # For macOS and Linux
-        print("\033[H\033[3J", end="")
+        print("\033[H\033[2J", end="")
 
 SATISFY_RULE = dict(max_win=False, bonus_3FC_3x=False, bonus_3FC_4x=False, bonus_3FC_5x=False, bonus_4FC=False, fists_4_more_max_win=False)
 class SymbolType(Enum):
@@ -275,38 +275,39 @@ class FistOfDestructionEmulator:
         if len(symbols) < 3:
             return {'symbol': None, 'count': 0, 'payout': 0}
 
-        # Count consecutive symbols from left
-        first_symbol = symbols[0]
-        if WILDS.__contains__(first_symbol):
-            # Find first non-wild symbol
-            for sym in symbols[1:]:
-                if not WILDS.__contains__(sym):
-                    first_symbol = sym
-                    break
+        # Find the first non-wild symbol to use as the base symbol
+        base_symbol = None
+        for sym in symbols:
+            if sym not in WILDS:
+                base_symbol = sym
+                break
 
-        count = 1
-        for i in range(1, len(symbols)):
-            current = symbols[i]
-            if current == first_symbol or WILDS.__contains__(current) or WILDS.__contains__(first_symbol):
+        # If all symbols are wild, treat as the highest paying symbol or handle specially
+        #if base_symbol is None:
+        #    base_symbol = symbols[0]  # or your highest paying symbol
+
+        # Count consecutive matching symbols from left
+        count = 0
+        for sym in symbols:
+            if sym == base_symbol or sym in WILDS:
                 count += 1
             else:
                 break
 
         # Calculate payout
         payout_multiplier = 0
-        if count >= 3 and first_symbol in self.paytable:
-            payout_multiplier = self.paytable[first_symbol].get(count, 0)
-            if count > 5:  # If somehow more than 5, use 5-symbol payout
-                payout_multiplier = self.paytable[first_symbol].get(5, 0)
+        if count >= 3 and base_symbol in self.paytable:
+            payout_multiplier = self.paytable[base_symbol].get(min(count, 5), 0)
 
-        if symbols.__contains__(SymbolType.EWILD):
-            self.game_state.fist_wild_win += payout_multiplier
-        else:
-            if symbols.__contains__(SymbolType.WILD):
-                self.game_state.wild_win += payout_multiplier
+        # Check if this specific winning combination contains wilds
+        winning_symbols = symbols[:count]
+        if SymbolType.EWILD in winning_symbols:
+            self.game_state.fist_wild_win += payout_multiplier  # Fixed typo
+        elif SymbolType.WILD in winning_symbols:
+            self.game_state.wild_win += payout_multiplier
 
         return {
-            'symbol': first_symbol,
+            'symbol': base_symbol,
             'count': count,
             'payout': payout_multiplier
         }
