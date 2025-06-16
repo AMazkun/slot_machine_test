@@ -18,9 +18,9 @@ ALL all testing conditions began to be met, namely:
 3. Dropping out 3xFC symbol bonus
 4. Dropping out 4 Fists with exceeding the maximum winning limit per spin
 
-*** Spin 21,832,342 of 22,000,000, epoch: 18, balance 21,449,568.90 :***
+**Spin 21,832,342 of 22,000,000, epoch: 18, balance 21,449,568.90 :**
 
-*** SATISFIED: {'max_win': True, 'bonus_3FC_3x': True, 'bonus_3FC_4x': True, 'bonus_3FC_5x': True, 'bonus_4FC': True, 'fists_4_more_max_win': True}***
+**SATISFIED: {'max_win': True, 'bonus_3FC_3x': True, 'bonus_3FC_4x': True, 'bonus_3FC_5x': True, 'bonus_4FC': True, 'fists_4_more_max_win': True}**
 
 
 ## 🔍 Purpose
