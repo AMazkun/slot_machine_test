@@ -9,6 +9,18 @@ Based on
 ![Game View](_res/FOD_face.jpeg)
 
 ⸻
+## Disclamer
+
+In more then 8 houres form exhaustive_num_spins = 14_000_000
+ALL all testing conditions began to be met, namely, 
+1. Exceeding the maximum winning limit per spin, 
+2. Dropping out the 3xFC symbol bonus from 3 to 5 multiplication
+3. Dropping out 3xFC symbol bonus
+4. Dropping out 4 Fists with exceeding the maximum winning limit per spin
+
+*** Spin 21,832,342 of 22,000,000, epoch: 18, balance 21,449,568.90 :***
+*** SATISFIED: {'max_win': True, 'bonus_3FC_3x': True, 'bonus_3FC_4x': True, 'bonus_3FC_5x': True, 'bonus_4FC': True, 'fists_4_more_max_win': True}***
+
 
 ## 🔍 Purpose
 The emulator is designed to find the point at which all the conditions for the appearance of the rarest events of the game are met, namely, exceeding the winning limit of one spin of the drum and the loss of all bonus games.
