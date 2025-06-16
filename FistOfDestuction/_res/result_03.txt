@@ -1,0 +1,756 @@
+Spin 29,984,022 of 30,000,000, epoch: 1, balance 27,831,396.10 :
+SATISFIED: {'max_win': True, 'bonus_3FC_3x': True, 'bonus_3FC_4x': True, 'bonus_3FC_5x': False, 'bonus_4FC': True, 'fists_4_more_max_win': True}
+ORIGINAL GRID:
+      WILD |     WILD |        J |      RFM |      BFM
+    BLUE_F |        A |      BFW |   BLUE_F |        K
+     RED_F |        J |      BFW |      RFM |   BLUE_F
+       RFW |    RED_F |        J |        Q |      BFW
+GRID:
+      FIST |     FIST |        J |      RFM |      BFM
+      FIST |     FIST |      BFW |   BLUE_F |        K
+      FIST |     FIST |      BFW |      RFM |   BLUE_F
+       RFW |     FIST |        J |        Q |      BFW
+  Win: x5061.60
+  Fist Activations: 2
+  BONUS: THROWDOWN
+
+	Stable not reached
+
+
+=== SIMULATION RESULTS ===
+Total Spins:  30,000,000 final balance $27,828,988.70
+Total Bet: $ 30,000,000.00
+Total Win: 			$28,559,036.60
+Total wild_win: 	$ 1,406,594.80 	of 4.93 %
+Total fist_wild_win: 	$ 387,712.50 	of 1.36 %
+Total bonus_THROWDOWN: 	$ 5,723,060.10 	of 20.04 %
+Total ULTIMA_THROWDOWN: 	$ 899,531.20 	of 3.15 %
+RTP:  95.20%
+Hit Frequency:  31.19%
+Max Win: $ 87,084.90 ( 87084.90x bet)
+Epic Drops:  0
+
+=== THEORETICAL VALIDATION ===
+Target RTP: 98.00%
+Actual RTP:  95.20%
+Difference: 2.80%
+Target Hit Frequency: ~23%
+RMSM volatility:  40.9243
+Actual Hit Frequency:  31.19%
+Max Win Cap: 10,000x ($10,000.00 at $1 bet)
+Achieved Max Win:  87,084.90x
+Max Win GRID:
+
+ORIGINAL GRID:
+       RFW |       10 |        K |      BFM |     WILD
+       RFM |     WILD |     WILD |     WILD |        J
+         Q |      RFM |        Q |    RED_F |      RFM
+         J |    RED_F |    RED_F |     WILD |     WILD
+GRID:
+       RFW |     FIST |     FIST |     FIST |     WILD
+       RFM |     FIST |     FIST |     FIST |        J
+         Q |     FIST |     FIST |     FIST |      RFM
+         J |     FIST |     FIST |     WILD |     WILD
+  Win: x87084.90
+  Fist Activations: 3
+	 Line  0 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 0), (1, 0), (2, 0), (3, 0), (4, 0)]
+	 Line  1 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 1), (2, 1), (3, 1)]
+	 Line  2 : QUEEN x4 = 0.6 : [(0, 2), (1, 2), (2, 2), (3, 2)]
+	 Line  3 : JACK x5 = 1.5 : [(0, 3), (1, 3), (2, 3), (3, 3), (4, 3)]
+	 Line  4 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 0), (1, 1), (2, 2), (3, 1), (4, 0)]
+	 Line  5 : RED_FIGHTER_MAN x5 = 8.0 : [(0, 1), (1, 0), (2, 1), (3, 2), (4, 3)]
+	 Line  6 : QUEEN x4 = 0.6 : [(0, 2), (1, 3), (2, 2), (3, 1)]
+	 Line  7 : JACK x5 = 1.5 : [(0, 3), (1, 2), (2, 1), (3, 2), (4, 3)]
+	 Line  8 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 0), (1, 1), (2, 0), (3, 1), (4, 0)]
+	 Line  9 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 2)]
+	 Line 10 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 0), (1, 1), (2, 2), (3, 3), (4, 0)]
+	 Line 11 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 12 : QUEEN x4 = 0.6 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 13 : JACK x5 = 1.5 : [(0, 3), (1, 0), (2, 1), (3, 2), (4, 3)]
+	 Line 14 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 0), (1, 1), (2, 2), (3, 3), (4, 0)]
+	 Line 15 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 16 : QUEEN x4 = 0.6 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 17 : JACK x5 = 1.5 : [(0, 3), (1, 0), (2, 1), (3, 2), (4, 3)]
+	 Line 18 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 0), (1, 1), (2, 2), (3, 3), (4, 0)]
+	 Line 19 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 20 : QUEEN x4 = 0.6 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 21 : JACK x5 = 1.5 : [(0, 3), (1, 0), (2, 1), (3, 2), (4, 3)]
+	 Line 22 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 0), (1, 1), (2, 2), (3, 3), (4, 0)]
+	 Line 23 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 24 : QUEEN x4 = 0.6 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 25 : JACK x5 = 1.5 : [(0, 3), (1, 0), (2, 1), (3, 2), (4, 3)]
+	 Line 26 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 0), (1, 1), (2, 2), (3, 3), (4, 0)]
+	 Line 27 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 28 : QUEEN x4 = 0.6 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 29 : JACK x5 = 1.5 : [(0, 3), (1, 0), (2, 1), (3, 2), (4, 3)]
+	 Line 30 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 0), (1, 1), (2, 2), (3, 3), (4, 0)]
+	 Line 31 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 32 : QUEEN x4 = 0.6 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 33 : JACK x5 = 1.5 : [(0, 3), (1, 0), (2, 1), (3, 2), (4, 3)]
+	 Line 34 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 0), (1, 1), (2, 2), (3, 3), (4, 0)]
+	 Line 35 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 36 : QUEEN x4 = 0.6 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 37 : JACK x5 = 1.5 : [(0, 3), (1, 0), (2, 1), (3, 2), (4, 3)]
+	 Line 38 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 0), (1, 1), (2, 2), (3, 3), (4, 0)]
+	 Line 39 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+======================================================
+
+Spin 29,997,990 of 30,000,000, epoch: 1, balance 27,980,705.70 :
+SATISFIED: {'max_win': True, 'bonus_3FC_3x': True, 'bonus_3FC_4x': True, 'bonus_3FC_5x': False, 'bonus_4FC': True, 'fists_4_more_max_win': False}
+ORIGINAL GRID:
+       BFW |      RFW |      RFM |      BFM |        J
+         A |        Q |        Q |     WILD |        K
+     RED_F |        K |      BFW |        A |       10
+       RFW |      RFM |    RED_F |      RFM |      BFW
+GRID:
+      FIST |      RFW |     FIST |      BFM |        J
+      FIST |        Q |     FIST |     WILD |        K
+      FIST |        K |     FIST |        A |       10
+       RFW |      RFM |     FIST |      RFM |      BFW
+  Win: x13944.60
+  Fist Activations: 2
+  BONUS: THROWDOWN
+
+	Stable not reached
+
+
+=== SIMULATION RESULTS ===
+Total Spins:  30,000,000 final balance $27,982,539.30
+Total Bet: $ 30,000,000.00
+Total Win: 			$29,020,299.80
+Total wild_win: 	$ 1,403,902.20 	of 4.84 %
+Total fist_wild_win: 	$ 387,668.80 	of 1.34 %
+Total bonus_THROWDOWN: 	$ 5,847,718.90 	of 20.15 %
+Total ULTIMA_THROWDOWN: 	$ 1,326,857.60 	of 4.57 %
+RTP:  96.73%
+Hit Frequency:  31.19%
+Max Win: $ 112,574.00 ( 112574.00x bet)
+Epic Drops:  0
+
+=== THEORETICAL VALIDATION ===
+Target RTP: 98.00%
+Actual RTP:  96.73%
+Difference: 1.27%
+Target Hit Frequency: ~23%
+RMSM volatility:  51.0786
+Actual Hit Frequency:  31.19%
+Max Win Cap: 10,000x ($10,000.00 at $1 bet)
+Achieved Max Win:  112,574.00x
+Max Win GRID:
+
+ORIGINAL GRID:
+       RFM |      BFW |      RFW |      RFW |    RED_F
+       BFW |      RFM |        Q |     WILD |       10
+     RED_F |      BFW |        Q |      RFM |      BFW
+    BLUE_F |    RED_F |      RFM |        J |    RED_F
+GRID:
+      FIST |     FIST |      RFW |      RFW |     FIST
+      FIST |     FIST |        Q |     WILD |     FIST
+      FIST |     FIST |        Q |      RFM |     FIST
+    BLUE_F |     FIST |      RFM |        J |     FIST
+  Win: x112574.00
+  Fist Activations: 3
+	 Line  0 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 0), (1, 0), (2, 0), (3, 0), (4, 0)]
+	 Line  1 : QUEEN x5 = 1.5 : [(0, 1), (1, 1), (2, 1), (3, 1), (4, 1)]
+	 Line  2 : QUEEN x3 = 0.1 : [(0, 2), (1, 2), (2, 2)]
+	 Line  4 : QUEEN x5 = 1.5 : [(0, 0), (1, 1), (2, 2), (3, 1), (4, 0)]
+	 Line  5 : QUEEN x3 = 0.1 : [(0, 1), (1, 0), (2, 1)]
+	 Line  6 : QUEEN x5 = 1.5 : [(0, 2), (1, 3), (2, 2), (3, 1), (4, 2)]
+	 Line  8 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 0), (1, 1), (2, 0), (3, 1), (4, 0)]
+	 Line  9 : RED_FIGHTER_MAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 2), (4, 1)]
+	 Line 10 : QUEEN x3 = 0.1 : [(0, 0), (1, 1), (2, 2)]
+	 Line 11 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 1), (1, 2), (2, 3)]
+	 Line 12 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 2), (1, 3), (2, 0), (3, 1), (4, 2)]
+	 Line 14 : QUEEN x3 = 0.1 : [(0, 0), (1, 1), (2, 2)]
+	 Line 15 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 1), (1, 2), (2, 3)]
+	 Line 16 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 2), (1, 3), (2, 0), (3, 1), (4, 2)]
+	 Line 18 : QUEEN x3 = 0.1 : [(0, 0), (1, 1), (2, 2)]
+	 Line 19 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 1), (1, 2), (2, 3)]
+	 Line 20 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 2), (1, 3), (2, 0), (3, 1), (4, 2)]
+	 Line 22 : QUEEN x3 = 0.1 : [(0, 0), (1, 1), (2, 2)]
+	 Line 23 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 1), (1, 2), (2, 3)]
+	 Line 24 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 2), (1, 3), (2, 0), (3, 1), (4, 2)]
+	 Line 26 : QUEEN x3 = 0.1 : [(0, 0), (1, 1), (2, 2)]
+	 Line 27 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 1), (1, 2), (2, 3)]
+	 Line 28 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 2), (1, 3), (2, 0), (3, 1), (4, 2)]
+	 Line 30 : QUEEN x3 = 0.1 : [(0, 0), (1, 1), (2, 2)]
+	 Line 31 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 1), (1, 2), (2, 3)]
+	 Line 32 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 2), (1, 3), (2, 0), (3, 1), (4, 2)]
+	 Line 34 : QUEEN x3 = 0.1 : [(0, 0), (1, 1), (2, 2)]
+	 Line 35 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 1), (1, 2), (2, 3)]
+	 Line 36 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 2), (1, 3), (2, 0), (3, 1), (4, 2)]
+	 Line 38 : QUEEN x3 = 0.1 : [(0, 0), (1, 1), (2, 2)]
+	 Line 39 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 1), (1, 2), (2, 3)]
+======================================================
+
+Spin 29,981,426 of 30,000,000, epoch: 1, balance 27,971,021.10 :
+SATISFIED: {'max_win': True, 'bonus_3FC_3x': True, 'bonus_3FC_4x': True, 'bonus_3FC_5x': False, 'bonus_4FC': True, 'fists_4_more_max_win': True}
+ORIGINAL GRID:
+      WILD |        Q |      BFW |    RED_F |        J
+     RED_F |      BFM |        K |      RFW |        A
+         A |      BFW |        K |      BFM |      RFW
+         J |        A |    RED_F |        A |    RED_F
+GRID:
+      FIST |        Q |     FIST |    RED_F |        J
+      FIST |      BFM |     FIST |      RFW |        A
+         A |      BFW |     FIST |      BFM |      RFW
+         J |        A |     FIST |        A |    RED_F
+  Win: x3291.80
+  Fist Activations: 2
+  BONUS: THROWDOWN
+
+	Stable not reached
+
+
+=== SIMULATION RESULTS ===
+Total Spins:  30,000,000 final balance $27,965,547.80
+Total Bet: $ 30,000,000.00
+Total Win: 			$28,779,877.80
+Total wild_win: 	$ 1,399,906.40 	of 4.86 %
+Total fist_wild_win: 	$ 388,456.40 	of 1.35 %
+Total bonus_THROWDOWN: 	$ 5,739,399.90 	of 19.94 %
+Total ULTIMA_THROWDOWN: 	$ 1,004,228.80 	of 3.49 %
+RTP:  95.93%
+Hit Frequency:  31.18%
+Max Win: $ 66,132.00 ( 66132.00x bet)
+Epic Drops:  0
+
+=== THEORETICAL VALIDATION ===
+Target RTP: 98.00%
+Actual RTP:  95.93%
+Difference: 2.07%
+Target Hit Frequency: ~23%
+RMSM volatility:  38.6086
+Actual Hit Frequency:  31.18%
+Max Win Cap: 10,000x ($10,000.00 at $1 bet)
+Achieved Max Win:  66,132.00x
+Max Win GRID:
+
+ORIGINAL GRID:
+         J |        A |     WILD |    RED_F |        A
+         A |        J |      BFM |        K |        A
+         J |      BFW |        J |      BFW |    RED_F
+       BFM |    RED_F |        A |    RED_F |        J
+GRID:
+         J |     FIST |     WILD |     FIST |        A
+         A |     FIST |      BFM |     FIST |        A
+         J |     FIST |        J |     FIST |    RED_F
+       BFM |     FIST |        A |     FIST |        J
+  Win: x66132.00
+  Fist Activations: 2
+	 Line  0 : JACK x4 = 0.6 : [(0, 0), (1, 0), (2, 0), (3, 0)]
+	 Line  2 : JACK x4 = 0.6 : [(0, 2), (1, 2), (2, 2), (3, 2)]
+	 Line  4 : JACK x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 1)]
+	 Line  6 : JACK x4 = 0.6 : [(0, 2), (1, 3), (2, 2), (3, 1)]
+	 Line  7 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 2), (2, 1), (3, 2)]
+	 Line  8 : JACK x4 = 0.6 : [(0, 0), (1, 1), (2, 0), (3, 1)]
+	 Line  9 : ACE x5 = 1.5 : [(0, 1), (1, 2), (2, 3), (3, 2), (4, 1)]
+	 Line 10 : JACK x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 11 : ACE x5 = 1.5 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 12 : JACK x4 = 0.6 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 13 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 14 : JACK x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 15 : ACE x5 = 1.5 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 16 : JACK x4 = 0.6 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 17 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 18 : JACK x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 19 : ACE x5 = 1.5 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 20 : JACK x4 = 0.6 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 21 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 22 : JACK x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 23 : ACE x5 = 1.5 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 24 : JACK x4 = 0.6 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 25 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 26 : JACK x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 27 : ACE x5 = 1.5 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 28 : JACK x4 = 0.6 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 29 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 30 : JACK x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 31 : ACE x5 = 1.5 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 32 : JACK x4 = 0.6 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 33 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 34 : JACK x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 35 : ACE x5 = 1.5 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 36 : JACK x4 = 0.6 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 37 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 38 : JACK x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 39 : ACE x5 = 1.5 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+======================================================
+
+admin@MacBookPro FistOfDestuction %
+
+Spin 29,977,209 of 30,000,000, epoch: 1, balance 28,019,293.40 :
+SATISFIED: {'max_win': True, 'bonus_3FC_3x': True, 'bonus_3FC_4x': True, 'bonus_3FC_5x': False, 'bonus_4FC': True, 'fists_4_more_max_win': False}
+ORIGINAL GRID:
+       BFW |       10 |      BFW |        K |      RFM
+         Q |      BFW |      RFM |      BFW |       10
+         Q |      RFW |     WILD |        Q |        J
+     RED_F |     WILD |        K |      BFM |      BFW
+GRID:
+      FIST |       10 |      BFW |        K |      RFM
+      FIST |      BFW |      RFM |      BFW |       10
+      FIST |      RFW |     WILD |        Q |        J
+      FIST |     WILD |        K |      BFM |      BFW
+  Win: x3949.10
+  Fist Activations: 1
+
+
+
+	Stable not reached
+
+
+=== SIMULATION RESULTS ===
+Total Spins:  30,000,000 final balance $28,015,577.20
+Total Bet: $ 30,000,000.00
+Total Win: 			$28,675,054.40
+Total wild_win: 	$ 1,398,569.00 	of 4.88 %
+Total fist_wild_win: 	$ 390,153.70 	of 1.36 %
+Total bonus_THROWDOWN: 	$ 5,856,086.20 	of 20.42 %
+Total ULTIMA_THROWDOWN: 	$ 837,352.00 	of 2.92 %
+RTP:  95.58%
+Hit Frequency:  31.17%
+Max Win: $ 62,263.60 ( 62263.60x bet)
+Epic Drops:  0
+
+=== THEORETICAL VALIDATION ===
+Target RTP: 98.00%
+Actual RTP:  95.58%
+Difference: 2.42%
+Target Hit Frequency: ~23%
+RMSM volatility:  39.5417
+Actual Hit Frequency:  31.17%
+Max Win Cap: 10,000x ($10,000.00 at $1 bet)
+Achieved Max Win:  62,263.60x
+Max Win GRID:
+
+ORIGINAL GRID:
+       RFM |      BFW |        Q |      BFM |      BFM
+         Q |      BFM |      BFW |      RFW |      RFW
+       BFW |        A |       10 |        A |        Q
+     RED_F |    RED_F |    RED_F |      RFM |       10
+GRID:
+      FIST |     FIST |     FIST |      BFM |      BFM
+      FIST |     FIST |     FIST |      RFW |      RFW
+      FIST |     FIST |     FIST |        A |        Q
+      FIST |     FIST |     FIST |      RFM |       10
+  Win: x62263.60
+  Fist Activations: 3
+	 Line  0 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 0), (1, 0), (2, 0), (3, 0), (4, 0)]
+	 Line  1 : RED_FIGHTER_WOMAN x5 = 8.0 : [(0, 1), (1, 1), (2, 1), (3, 1), (4, 1)]
+	 Line  2 : ACE x4 = 0.6 : [(0, 2), (1, 2), (2, 2), (3, 2)]
+	 Line  3 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 3), (2, 3), (3, 3)]
+	 Line  4 : RED_FIGHTER_WOMAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 1)]
+	 Line  5 : ACE x4 = 0.6 : [(0, 1), (1, 0), (2, 1), (3, 2)]
+	 Line  6 : RED_FIGHTER_WOMAN x4 = 3.0 : [(0, 2), (1, 3), (2, 2), (3, 1)]
+	 Line  7 : ACE x4 = 0.6 : [(0, 3), (1, 2), (2, 1), (3, 2)]
+	 Line  8 : RED_FIGHTER_WOMAN x4 = 3.0 : [(0, 0), (1, 1), (2, 0), (3, 1)]
+	 Line  9 : ACE x4 = 0.6 : [(0, 1), (1, 2), (2, 3), (3, 2)]
+	 Line 10 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 11 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 12 : RED_FIGHTER_WOMAN x4 = 3.0 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 13 : ACE x4 = 0.6 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 14 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 15 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 16 : RED_FIGHTER_WOMAN x4 = 3.0 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 17 : ACE x4 = 0.6 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 18 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 19 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 20 : RED_FIGHTER_WOMAN x4 = 3.0 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 21 : ACE x4 = 0.6 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 22 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 23 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 24 : RED_FIGHTER_WOMAN x4 = 3.0 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 25 : ACE x4 = 0.6 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 26 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 27 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 28 : RED_FIGHTER_WOMAN x4 = 3.0 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 29 : ACE x4 = 0.6 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 30 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 31 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 32 : RED_FIGHTER_WOMAN x4 = 3.0 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 33 : ACE x4 = 0.6 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 34 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 35 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 36 : RED_FIGHTER_WOMAN x4 = 3.0 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 37 : ACE x4 = 0.6 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 38 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 39 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+======================================================
+Spin 29,884,176 of 30,000,000, epoch: 1, balance 27,995,255.10 :
+SATISFIED: {'max_win': True, 'bonus_3FC_3x': True, 'bonus_3FC_4x': True, 'bonus_3FC_5x': False, 'bonus_4FC': True, 'fists_4_more_max_win': False}
+ORIGINAL GRID:
+         Q |        Q |       10 |      RFW |        Q
+      WILD |        K |      BFW |     WILD |      RFM
+         K |     WILD |   BLUE_F |        J |        K
+         J |    RED_F |    RED_F |       FS |        A
+GRID:
+         Q |     FIST |     FIST |      RFW |        Q
+      WILD |     FIST |     FIST |     WILD |      RFM
+         K |     FIST |     FIST |        J |        K
+         J |     FIST |     FIST |       FS |        A
+  Win: x19530.10
+  Fist Activations: 2
+  BONUS: THROWDOWN
+
+	Stable not reached
+
+
+=== SIMULATION RESULTS ===
+Total Spins:  30,000,000 final balance $27,986,335.00
+Total Bet: $ 30,000,000.00
+Total Win: 			$28,725,124.00
+Total wild_win: 	$ 1,404,151.30 	of 4.89 %
+Total fist_wild_win: 	$ 386,490.20 	of 1.35 %
+Total bonus_THROWDOWN: 	$ 5,987,306.90 	of 20.84 %
+Total ULTIMA_THROWDOWN: 	$ 955,775.20 	of 3.33 %
+RTP:  95.75%
+Hit Frequency:  31.20%
+Max Win: $ 54,309.90 ( 54309.90x bet)
+Epic Drops:  0
+
+=== THEORETICAL VALIDATION ===
+Target RTP: 98.00%
+Actual RTP:  95.75%
+Difference: 2.25%
+Target Hit Frequency: ~23%
+RMSM volatility:  40.0448
+Actual Hit Frequency:  31.20%
+Max Win Cap: 10,000x ($10,000.00 at $1 bet)
+Achieved Max Win:  54,309.90x
+Max Win GRID:
+
+ORIGINAL GRID:
+       BFW |       10 |      BFW |     WILD |        A
+         A |      RFM |        A |        K |       10
+         K |     WILD |    RED_F |      RFW |      BFM
+     RED_F |      BFM |      RFM |    RED_F |        A
+GRID:
+      FIST |       10 |     FIST |     FIST |        A
+      FIST |      RFM |     FIST |     FIST |       10
+      FIST |     WILD |     FIST |     FIST |      BFM
+      FIST |      BFM |      RFM |     FIST |        A
+  Win: x54309.90
+  Fist Activations: 3
+	 Line  0 : TEN x4 = 0.6 : [(0, 0), (1, 0), (2, 0), (3, 0)]
+	 Line  1 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 1), (2, 1), (3, 1)]
+	 Line  2 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 2), (1, 2), (2, 2), (3, 2), (4, 2)]
+	 Line  4 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 1)]
+	 Line  5 : TEN x4 = 0.6 : [(0, 1), (1, 0), (2, 1), (3, 2)]
+	 Line  6 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 2), (1, 3), (2, 2), (3, 1), (4, 2)]
+	 Line  7 : ACE x5 = 1.5 : [(0, 3), (1, 2), (2, 1), (3, 2), (4, 3)]
+	 Line  8 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 0), (3, 1)]
+	 Line  9 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 2)]
+	 Line 10 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 11 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 12 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 2), (1, 3), (2, 0), (3, 1), (4, 2)]
+	 Line 13 : TEN x4 = 0.6 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 14 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 15 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 16 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 2), (1, 3), (2, 0), (3, 1), (4, 2)]
+	 Line 17 : TEN x4 = 0.6 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 18 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 19 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 20 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 2), (1, 3), (2, 0), (3, 1), (4, 2)]
+	 Line 21 : TEN x4 = 0.6 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 22 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 23 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 24 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 2), (1, 3), (2, 0), (3, 1), (4, 2)]
+	 Line 25 : TEN x4 = 0.6 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 26 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 27 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 28 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 2), (1, 3), (2, 0), (3, 1), (4, 2)]
+	 Line 29 : TEN x4 = 0.6 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 30 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 31 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 32 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 2), (1, 3), (2, 0), (3, 1), (4, 2)]
+	 Line 33 : TEN x4 = 0.6 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 34 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 35 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 36 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 2), (1, 3), (2, 0), (3, 1), (4, 2)]
+	 Line 37 : TEN x4 = 0.6 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 38 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 39 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+======================================================
+
+Spin 29,969,987 of 30,000,000, epoch: 1, balance 27,965,390.20 :
+SATISFIED: {'max_win': True, 'bonus_3FC_3x': True, 'bonus_3FC_4x': True, 'bonus_3FC_5x': True, 'bonus_4FC': True, 'fists_4_more_max_win': True}
+ORIGINAL GRID:
+      WILD |     WILD |       10 |      RFW |       10
+     RED_F |      BFM |     WILD |        Q |     WILD
+      WILD |       10 |    RED_F |    RED_F |        Q
+       BFW |        K |        Q |        J |        J
+GRID:
+      FIST |     WILD |     FIST |      RFW |       10
+      FIST |      BFM |     FIST |        Q |     WILD
+      WILD |       10 |     FIST |    RED_F |        Q
+       BFW |        K |        Q |        J |        J
+  Win: x4314.30
+  Fist Activations: 2
+  BONUS: THROWDOWN
+
+	Stable reached
+
+
+=== SIMULATION RESULTS ===
+Total Spins:  30,000,000 final balance $27,957,207.60
+Total Bet: $ 30,000,000.00
+Total Win: 			$28,879,881.10
+Total wild_win: 	$ 1,400,427.30 	of 4.85 %
+Total fist_wild_win: 	$ 385,901.20 	of 1.34 %
+Total bonus_THROWDOWN: 	$ 5,932,793.50 	of 20.54 %
+Total ULTIMA_THROWDOWN: 	$ 1,192,887.60 	of 4.13 %
+RTP:  96.27%
+Hit Frequency:  31.19%
+Max Win: $ 204,934.40 ( 204934.40x bet)
+Epic Drops:  0
+
+=== THEORETICAL VALIDATION ===
+Target RTP: 98.00%
+Actual RTP:  96.27%
+Difference: 1.73%
+Target Hit Frequency: ~23%
+RMSM volatility:  58.7936
+Actual Hit Frequency:  31.19%
+Max Win Cap: 10,000x ($10,000.00 at $1 bet)
+Achieved Max Win:  204,934.40x
+Max Win GRID:
+
+ORIGINAL GRID:
+         K |      BFW |        A |        J |        A
+       BFW |    RED_F |      BFW |     WILD |      BFW
+       RFM |      BFW |   BLUE_F |    RED_F |        J
+       BFW |        A |    RED_F |    RED_F |      RFW
+GRID:
+         K |     FIST |     FIST |     FIST |        A
+       BFW |     FIST |     FIST |     FIST |      BFW
+       RFM |      BFW |     FIST |     FIST |        J
+       BFW |        A |     FIST |     FIST |      RFW
+  Win: x204934.40
+  Fist Activations: 3
+	 Line  0 : KING x4 = 0.6 : [(0, 0), (1, 0), (2, 0), (3, 0)]
+	 Line  1 : BLUE_FIGHTER_WOMAN x5 = 8.0 : [(0, 1), (1, 1), (2, 1), (3, 1), (4, 1)]
+	 Line  4 : KING x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 1)]
+	 Line  5 : BLUE_FIGHTER_WOMAN x4 = 3.0 : [(0, 1), (1, 0), (2, 1), (3, 2)]
+	 Line  7 : BLUE_FIGHTER_WOMAN x4 = 3.0 : [(0, 3), (1, 2), (2, 1), (3, 2)]
+	 Line  8 : KING x4 = 0.6 : [(0, 0), (1, 1), (2, 0), (3, 1)]
+	 Line  9 : BLUE_FIGHTER_WOMAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 2), (4, 1)]
+	 Line 10 : KING x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 11 : BLUE_FIGHTER_WOMAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 13 : BLUE_FIGHTER_WOMAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 14 : KING x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 15 : BLUE_FIGHTER_WOMAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 17 : BLUE_FIGHTER_WOMAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 18 : KING x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 19 : BLUE_FIGHTER_WOMAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 21 : BLUE_FIGHTER_WOMAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 22 : KING x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 23 : BLUE_FIGHTER_WOMAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 25 : BLUE_FIGHTER_WOMAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 26 : KING x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 27 : BLUE_FIGHTER_WOMAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 29 : BLUE_FIGHTER_WOMAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 30 : KING x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 31 : BLUE_FIGHTER_WOMAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 33 : BLUE_FIGHTER_WOMAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 34 : KING x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 35 : BLUE_FIGHTER_WOMAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 37 : BLUE_FIGHTER_WOMAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 38 : KING x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 39 : BLUE_FIGHTER_WOMAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+======================================================
+
+Spin 29,905,617 of 30,000,000, epoch: 1, balance 28,226,939.70 :
+SATISFIED: {'max_win': True, 'bonus_3FC_3x': True, 'bonus_3FC_4x': True, 'bonus_3FC_5x': True, 'bonus_4FC': True, 'fists_4_more_max_win': True}
+ORIGINAL GRID:
+       RFM |      BFW |    RED_F |        J |        A
+         Q |        K |     WILD |        A |        Q
+         K |      RFM |    RED_F |        K |        A
+        10 |    RED_F |        Q |      RFM |      RFM
+GRID:
+       RFM |     FIST |     FIST |        J |        A
+         Q |     FIST |     FIST |        A |        Q
+         K |     FIST |     FIST |        K |        A
+        10 |     FIST |        Q |      RFM |      RFM
+  Win: x11847.30
+  Fist Activations: 2
+
+
+
+	Stable reached
+
+
+=== SIMULATION RESULTS ===
+Total Spins:  30,000,000 final balance $28,213,380.30
+Total Bet: $ 30,000,000.00
+Total Win: 			$29,025,060.10
+Total wild_win: 	$ 1,400,026.70 	of 4.82 %
+Total fist_wild_win: 	$ 389,801.70 	of 1.34 %
+Total bonus_THROWDOWN: 	$ 6,168,445.10 	of 21.25 %
+Total ULTIMA_THROWDOWN: 	$ 1,048,070.00 	of 3.61 %
+RTP:  96.75%
+Hit Frequency:  31.19%
+Max Win: $ 63,327.60 ( 63327.60x bet)
+Epic Drops:  0
+
+=== THEORETICAL VALIDATION ===
+Target RTP: 98.00%
+Actual RTP:  96.75%
+Difference: 1.25%
+Target Hit Frequency: ~23%
+RMSM volatility:  40.9606
+Actual Hit Frequency:  31.19%
+Max Win Cap: 10,000x ($10,000.00 at $1 bet)
+Achieved Max Win:  63,327.60x
+Max Win GRID:
+
+ORIGINAL GRID:
+         A |      RFM |       10 |      BFW |      RFM
+         A |       10 |     WILD |        Q |      BFM
+       BFW |      BFM |   BLUE_F |    RED_F |        Q
+     RED_F |      BFM |    RED_F |     WILD |       10
+GRID:
+      FIST |      RFM |     FIST |     FIST |      RFM
+      FIST |       10 |     FIST |     FIST |      BFM
+      FIST |      BFM |     FIST |     FIST |        Q
+      FIST |      BFM |     FIST |     WILD |       10
+  Win: x63327.60
+  Fist Activations: 3
+	 Line  0 : RED_FIGHTER_MAN x5 = 8.0 : [(0, 0), (1, 0), (2, 0), (3, 0), (4, 0)]
+	 Line  1 : TEN x4 = 0.6 : [(0, 1), (1, 1), (2, 1), (3, 1)]
+	 Line  2 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 2), (1, 2), (2, 2), (3, 2)]
+	 Line  3 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 3), (2, 3), (3, 3)]
+	 Line  4 : TEN x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 1)]
+	 Line  5 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 1), (1, 0), (2, 1), (3, 2)]
+	 Line  6 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 2), (1, 3), (2, 2), (3, 1)]
+	 Line  7 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 2), (2, 1), (3, 2)]
+	 Line  8 : TEN x4 = 0.6 : [(0, 0), (1, 1), (2, 0), (3, 1)]
+	 Line  9 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 2), (4, 1)]
+	 Line 10 : TEN x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 11 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 12 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 13 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 14 : TEN x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 15 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 16 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 17 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 18 : TEN x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 19 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 20 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 21 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 22 : TEN x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 23 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 24 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 25 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 26 : TEN x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 27 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 28 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 29 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 30 : TEN x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 31 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 32 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 33 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 34 : TEN x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 35 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+	 Line 36 : BLUE_FIGHTER_MAN x4 = 3.0 : [(0, 2), (1, 3), (2, 0), (3, 1)]
+	 Line 37 : RED_FIGHTER_MAN x4 = 3.0 : [(0, 3), (1, 0), (2, 1), (3, 2)]
+	 Line 38 : TEN x4 = 0.6 : [(0, 0), (1, 1), (2, 2), (3, 3)]
+	 Line 39 : BLUE_FIGHTER_MAN x5 = 8.0 : [(0, 1), (1, 2), (2, 3), (3, 0), (4, 1)]
+======================================================
+
+Spin 29,970,563 of 30,000,000, epoch: 1, balance 27,961,000.50 :
+SATISFIED: {'max_win': True, 'bonus_3FC_3x': True, 'bonus_3FC_4x': True, 'bonus_3FC_5x': False, 'bonus_4FC': True, 'fists_4_more_max_win': True}
+ORIGINAL GRID:
+      WILD |        A |      BFW |        Q |      RFM
+         Q |        K |        Q |        Q |        K
+     RED_F |      BFW |        Q |        Q |      RFW
+       BFW |      RFM |    RED_F |      BFW |        Q
+GRID:
+      FIST |        A |     FIST |        Q |      RFM
+      FIST |        K |     FIST |        Q |        K
+      FIST |      BFW |     FIST |        Q |      RFW
+       BFW |      RFM |     FIST |      BFW |        Q
+  Win: x21074.00
+  Fist Activations: 2
+  BONUS: ULTIMATE_THROWDOWN
+
+	Stable not reached
+
+
+=== SIMULATION RESULTS ===
+Total Spins:  30,000,000 final balance $27,955,867.40
+Total Bet: $ 30,000,000.00
+Total Win: 			$28,795,004.90
+Total wild_win: 	$ 1,402,791.60 	of 4.87 %
+Total fist_wild_win: 	$ 389,075.70 	of 1.35 %
+Total bonus_THROWDOWN: 	$ 5,917,186.10 	of 20.55 %
+Total ULTIMA_THROWDOWN: 	$ 1,062,088.40 	of 3.69 %
+RTP:  95.98%
+Hit Frequency:  31.18%
+Max Win: $ 54,696.40 ( 54696.40x bet)
+Epic Drops:  0
+
+=== THEORETICAL VALIDATION ===
+Target RTP: 98.00%
+Actual RTP:  95.98%
+Difference: 2.02%
+Target Hit Frequency: ~23%
+RMSM volatility:  40.8727
+Actual Hit Frequency:  31.18%
+Max Win Cap: 10,000x ($10,000.00 at $1 bet)
+Achieved Max Win:  54,696.40x
+Max Win GRID:
+
+ORIGINAL GRID:
+         A |      BFW |      BFW |        J |        K
+       BFW |      RFM |      RFM |        Q |       10
+       BFW |        J |        K |        K |       10
+     RED_F |      RFW |    RED_F |      BFM |      BFW
+GRID:
+      FIST |      BFW |     FIST |        J |        K
+      FIST |      RFM |     FIST |        Q |       10
+      FIST |        J |     FIST |        K |       10
+      FIST |      RFW |     FIST |      BFM |      BFW
+  Win: x54696.40
+  Fist Activations: 2
+	 Line  0 : BLUE_FIGHTER_WOMAN x3 = 1.0 : [(0, 0), (1, 0), (2, 0)]
+	 Line  1 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 1), (1, 1), (2, 1)]
+	 Line  2 : JACK x3 = 0.1 : [(0, 2), (1, 2), (2, 2)]
+	 Line  3 : RED_FIGHTER_WOMAN x3 = 1.0 : [(0, 3), (1, 3), (2, 3)]
+	 Line  4 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 0), (1, 1), (2, 2)]
+	 Line  5 : BLUE_FIGHTER_WOMAN x3 = 1.0 : [(0, 1), (1, 0), (2, 1)]
+	 Line  6 : RED_FIGHTER_WOMAN x3 = 1.0 : [(0, 2), (1, 3), (2, 2)]
+	 Line  7 : JACK x3 = 0.1 : [(0, 3), (1, 2), (2, 1)]
+	 Line  8 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 0), (1, 1), (2, 0)]
+	 Line  9 : JACK x3 = 0.1 : [(0, 1), (1, 2), (2, 3)]
+	 Line 10 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 0), (1, 1), (2, 2)]
+	 Line 11 : JACK x4 = 0.6 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 12 : RED_FIGHTER_WOMAN x3 = 1.0 : [(0, 2), (1, 3), (2, 0)]
+	 Line 13 : BLUE_FIGHTER_WOMAN x3 = 1.0 : [(0, 3), (1, 0), (2, 1)]
+	 Line 14 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 0), (1, 1), (2, 2)]
+	 Line 15 : JACK x4 = 0.6 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 16 : RED_FIGHTER_WOMAN x3 = 1.0 : [(0, 2), (1, 3), (2, 0)]
+	 Line 17 : BLUE_FIGHTER_WOMAN x3 = 1.0 : [(0, 3), (1, 0), (2, 1)]
+	 Line 18 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 0), (1, 1), (2, 2)]
+	 Line 19 : JACK x4 = 0.6 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 20 : RED_FIGHTER_WOMAN x3 = 1.0 : [(0, 2), (1, 3), (2, 0)]
+	 Line 21 : BLUE_FIGHTER_WOMAN x3 = 1.0 : [(0, 3), (1, 0), (2, 1)]
+	 Line 22 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 0), (1, 1), (2, 2)]
+	 Line 23 : JACK x4 = 0.6 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 24 : RED_FIGHTER_WOMAN x3 = 1.0 : [(0, 2), (1, 3), (2, 0)]
+	 Line 25 : BLUE_FIGHTER_WOMAN x3 = 1.0 : [(0, 3), (1, 0), (2, 1)]
+	 Line 26 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 0), (1, 1), (2, 2)]
+	 Line 27 : JACK x4 = 0.6 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 28 : RED_FIGHTER_WOMAN x3 = 1.0 : [(0, 2), (1, 3), (2, 0)]
+	 Line 29 : BLUE_FIGHTER_WOMAN x3 = 1.0 : [(0, 3), (1, 0), (2, 1)]
+	 Line 30 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 0), (1, 1), (2, 2)]
+	 Line 31 : JACK x4 = 0.6 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 32 : RED_FIGHTER_WOMAN x3 = 1.0 : [(0, 2), (1, 3), (2, 0)]
+	 Line 33 : BLUE_FIGHTER_WOMAN x3 = 1.0 : [(0, 3), (1, 0), (2, 1)]
+	 Line 34 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 0), (1, 1), (2, 2)]
+	 Line 35 : JACK x4 = 0.6 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+	 Line 36 : RED_FIGHTER_WOMAN x3 = 1.0 : [(0, 2), (1, 3), (2, 0)]
+	 Line 37 : BLUE_FIGHTER_WOMAN x3 = 1.0 : [(0, 3), (1, 0), (2, 1)]
+	 Line 38 : RED_FIGHTER_MAN x3 = 1.0 : [(0, 0), (1, 1), (2, 2)]
+	 Line 39 : JACK x4 = 0.6 : [(0, 1), (1, 2), (2, 3), (3, 0)]
+======================================================
+
